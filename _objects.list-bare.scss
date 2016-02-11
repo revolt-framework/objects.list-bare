@@ -1,0 +1,26 @@
+//
+// OBJECTS.LIST-BARE
+//
+// The list-bare object simply displays a list of items without indention or
+// list-style.
+//
+
+
+
+// Predefine the variables below to alter and enable specific features.
+
+$revo-list-bare-namespace:    $revo-objects-namespace !default;
+
+
+
+.#{$revo-list-bare-namespace}list-bare,
+%#{$revo-list-bare-namespace}list-bare {
+    margin-left: 0;
+    padding: 0;
+    list-style: none;
+
+    [dir=rtl] & {
+        margin-right: 0;
+    }
+
+}

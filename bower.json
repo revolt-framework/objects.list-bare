@@ -1,0 +1,22 @@
+{
+  "name": "revolt.objects.list-bare",
+  "homepage": "https://github.com/revolt-framework/objects.list-bare",
+  "authors": [
+    {
+      "name": "Ruven Pelka",
+      "email": "ruven.pelka@gmail.com",
+      "homepage": "http://ruvenpelka.com"
+    }
+  ],
+  "description": "Revolt framework module to remove bullets and indents from lists.",
+  "main": "_objects.list-bare.scss",
+  "keywords": [
+    "revolt",
+    "oocss",
+    "css"
+  ],
+  "dependencies": {
+    "revolt.settings.defaults": "0.x.x"
+  },
+  "license": "MIT"
+}
